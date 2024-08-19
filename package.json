@@ -1,0 +1,27 @@
+{
+  "name": "telegram-account-management-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for account management",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "ioredis": "^4.27.6",
+    "node-telegram-bot-api": "^0.54.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
